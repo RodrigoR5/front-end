@@ -1,0 +1,38 @@
+.texto_padrao h1 {
+	font-size: 70px;
+}
+
+body {
+	background-color: rgb(233,219,137);
+}
+
+.texto_padrao .corpo_do_texto p {
+	font-size: 16px;
+
+}
+
+main p {
+	margin-bottom:20px;
+	font-family: 'Raleway';
+}
+
+.texto_padrao div p:first-letter {
+	margin-left: 0px;
+}
+
+main h2{
+	font-size:25px;
+	font-weight: bold;
+	margin-bottom:10px;
+	font-family: 'Raleway';
+}
+
+main h1, main p, main h2 {
+	color: rgb(12,60,96);
+}
+
+footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+}

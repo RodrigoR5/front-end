@@ -1,0 +1,91 @@
+figure{
+	background-image: url("../imagens/idosos_na_praia.jpg");
+	background-size: 100vw;
+	height: 37vw;
+	background-repeat: no-repeat;
+	}
+
+#abscj_folder_azul {
+    margin-top: 11%;
+    margin-left: 26%;
+    max-height: 15vw;
+    max-width: 30vw;
+}
+
+#menu_secundario {
+	background: rgb(12,60,96);
+	width: 100%;
+	height: 273px;
+	text-align: center;
+	display: table;
+
+}
+
+main div ul li {
+	width: 300px;
+	height: 140px;
+	display: inline-block;
+	margin: 0px 30px 0px 30px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 40px;
+
+}
+
+main div ul li span {
+	margin-top: 40px;
+	margin-bottom: 10px;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.texto_superior {
+	color: #D1E0EB;
+	font-family: 'Raleway', sans-serif;
+}
+main div ul {
+	height: 140px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+main div ul li a {
+	display:block;
+	display: block;
+    width: 140px;
+    height: 40px;
+    background-color: rgba(62, 148, 129, 1);
+    margin: auto;
+
+}
+
+main div ul li a{
+	display: table;
+	border-radius: 20px;
+}
+main div ul li a span{
+	/*transformado em table-cell para poder usar a propriedade de alinhas verticalmente*/
+	display: table-cell;
+	vertical-align: middle;
+	margin:0;
+	font-size: 16px;
+}
+
+#como_ajudar{
+	background-color: rgb(163,189,49);
+	 
+}
+
+#seja_voluntario{
+	background-color: rgb(255,161,0);
+}
+
+#galeria_de_fotos{
+	background-color: rgb(74,179,181);	
+}
+
+.texto_padrao {
+	background-color: rgb(255,79,132);
+}
+
+

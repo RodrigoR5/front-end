@@ -1,0 +1,179 @@
+nav {
+	background: rgb(30,171,199);
+	height: 100px;
+	position: sticky;
+	top: 0px;
+}
+
+nav p {
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Overlock';
+	font-size: 12px;
+}
+
+nav p span {
+	font-size: 21px;
+} 
+nav li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul {
+	text-align: center;
+	font-family: "arial"
+}
+
+footer {
+	background: rgb(12,60,96);
+    height: 105px;
+    display: table;
+    width: 100%;
+}
+
+footer p {
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+footer img {
+    display: inline-block;
+}
+
+footer p {
+	font-family: sans-serif;
+	color:white;
+	display: inline-block;
+}
+
+footer a img {
+	position: relative;
+	top: 3px;
+	left: 5px;
+}
+
+* {
+	color: white;
+	box-sizing: border-box;
+	font-family: "arial";
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.texto_padrao{
+	width:100%;
+    padding-bottom: 10px;
+}
+
+.texto_padrao h1 {
+    font-size: 60px;
+    font-family: "raleway";
+    text-align: center;
+    line-height: 170px;
+}
+
+.texto_padrao .corpo_do_texto {
+	margin:0 30% 0 30%;
+	text-align: justify;
+}
+
+@media only screen and (max-width: 1440px){
+	.texto_padrao .corpo_do_texto {
+		margin:0 20% 0 20%;
+}
+}
+
+@media only screen and (max-width: 1000px){
+	.texto_padrao .corpo_do_texto {
+		margin:0 10% 0 10%;
+}
+}
+
+
+.texto_padrao div p:first-letter {
+	margin-left: 30px;
+}
+
+.texto_padrao div p {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.texto_padrao .links {
+    text-align: center;
+}
+
+.texto_padrao div a {
+    background-color: rgb(12,60,96);
+    padding: 12px 35px;
+    display: inline-block;
+    width: 150px;
+    margin: 30px auto;
+}
+
+main .retangulo {
+	display:inline-block;
+    width: 3vw;
+    height: 0.2vw;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 1920px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/*menu para smartphones*/
+nav button {
+    background-color: rgb(30,171,199);
+    padding: 5px;
+    border-color: white;
+    margin-left: 5%;
+    margin-top: 1%;
+    display:none;
+}
+
+#menu_smartphone {
+	background-color: rgb(30,171,199);
+}
+
+@media only screen and (max-width: 650px){
+	nav #menu_principal{
+		display:none;
+	}
+
+	nav button{
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	main #menu_secundario {
+		display: none;
+	}
+}
+
+footer {
+    display: table;
+}
+footer div {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}

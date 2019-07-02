@@ -1,0 +1,35 @@
+main {
+	height: 100%;
+}
+body {
+	height:100%;
+}
+
+main div {
+	text-align: center;
+	margin:0vw 30vw 5vw 30vw;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	top: 80px;
+}
+
+main h1 {
+	color: rgb(255, 97, 97);
+	font-size: 40px;
+	margin-bottom: 1.5vw;
+}
+
+#email, main p{
+	color: rgb(26, 60, 96);
+}
+
+#email {
+	font-size: 36px;
+	font-weight: bold;
+	margin:1vw 2vw 0vw 1vw;
+}
+
+
+main .retangulo {
+	background-color: rgb(255, 97, 97);
+}

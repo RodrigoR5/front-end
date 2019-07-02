@@ -1,0 +1,13 @@
+.texto_padrao h1 {
+	color: rgb(110,164,202);
+	font-size: 70px;
+}
+
+.texto_padrao .corpo_do_texto p {
+	color: rgb(57,114,161);
+	font-size: 16px;
+}
+
+main {
+	margin-bottom: 20px;
+}
